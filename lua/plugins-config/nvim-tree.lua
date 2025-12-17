@@ -9,6 +9,11 @@ require("nvim-tree").setup()
 
 -- OR setup with some options
 require("nvim-tree").setup({
+    git = {
+    enable = true, -- Ensure Git integration is enabled
+    ignore = false, -- Set this to false to show git-ignored files
+  },
+
   sort = {
     sorter = "case_sensitive",
   },

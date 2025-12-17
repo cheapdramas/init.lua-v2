@@ -15,8 +15,16 @@ require("plugins-config/nvim-tree")
 require('mappings')
 
 
+
+vim.opt.tabstop = 4      -- ширина таба
+vim.opt.shiftwidth = 4   -- ширина авто-індента (>> <<)
+vim.opt.expandtab = true -- таб = пробіли
+vim.opt.softtabstop = 4  -- бекспейс стирає 4 пробіли як таб
+
+
+
 -- Set colorscheme
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme vague")
 vim.cmd("set background=dark")
 
 -- Set relativenumbers

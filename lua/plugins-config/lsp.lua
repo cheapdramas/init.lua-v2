@@ -42,6 +42,18 @@ vim.lsp.config("pyright", {
   capabilities = capabilities,
 })
 
+vim.lsp.config("ts_ls", {capabilities = capabilities})
+
 -- Enable LSP
 vim.lsp.enable("lua_ls")
+vim.lsp.enable("ts_ls")
 vim.lsp.enable("pyright")
+
+vim.keymap.set("n", "gd", function()
+  vim.lsp.buf.definition()
+end, { noremap = true, silent = true })
+
+vim.keymap.set("n", "lr", function()
+  vim.lsp.buf.rename()
+end, { noremap = true, silent = true, desc = "LSP Rename" })
+
