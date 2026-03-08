@@ -5,4 +5,4 @@
 
 LSPs configuration for: Python, Ruby, Lua, JavaScript, Golang
 
-Keybindings are really intuituve, this config is BASED istg
+Keybindings are really intuitive, this config is BASED istg
