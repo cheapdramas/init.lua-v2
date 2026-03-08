@@ -1,9 +1,9 @@
 -- Everything here is for nvim 0.12 +
 require('install-plugins')
-require("plugins-config/xkblayout")
 require("plugins-config/lsp")
 require("plugins-config/conform")
 require("plugins-config/trouble")
+require("plugins-config/xkblayout")
 require("plugins-config/telescope")
 require("plugins-config/rose-pine")
 require("plugins-config/vague")
