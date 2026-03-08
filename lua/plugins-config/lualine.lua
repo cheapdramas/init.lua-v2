@@ -1,6 +1,6 @@
 local devicons = require('nvim-web-devicons')
 
-local default_theme = { fg = "#000000", bg = "None" }
+local default_theme = { fg = "#FFFFFF", bg = "None" }
 
 require('lualine').setup {
   options = {

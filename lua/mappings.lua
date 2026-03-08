@@ -51,3 +51,6 @@ end, { noremap = true, silent = true })
 -- Opens explorer
 vim.keymap.set("n", "<A-e>", ":NvimTreeFocus<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<A-b>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+
+
+---------------------------------------------- WINDOWS -----

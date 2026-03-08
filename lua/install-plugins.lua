@@ -10,6 +10,9 @@ vim.pack.add{
 	{src="https://github.com/rose-pine/neovim", as = "rose-pine"},
 	{src="https://github.com/vague-theme/vague.nvim"},
 	{src="https://github.com/ellisonleao/gruvbox.nvim"},
+	{src="https://github.com/catppuccin/nvim"},
+    --formating
+    {src="https://github.com/stevearc/conform.nvim"},
 	-- autocomplete
 	{src="https://github.com/hrsh7th/cmp-nvim-lsp"},
 	{src="https://github.com/hrsh7th/cmp-buffer"},
