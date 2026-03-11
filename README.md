@@ -1,7 +1,7 @@
 ![Config look](neovim-config.png)
 ![Config look 2](neovim-config-look2.png)
 
-! **CAUTION** ! *"lua/plugins-config/xkblayout.lua"* uses **MY relative path**, make sure to use YOUR own
+! **CAUTION** ! *"lua/plugins-config/xkblayout.lua"* uses **MY absolute path**, make sure to use YOUR own
 
 LSPs configuration for: Python, Ruby, Lua, JavaScript, Golang
 
